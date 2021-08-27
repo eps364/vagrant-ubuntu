@@ -1,6 +1,6 @@
 {
   "name": "vagrant-dev",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/server.js",
   "repository": "https://github.com/eps364/vagrant-ubuntu.git",
   "author": "Emerson Pereira da Silva <pereiradasilva.emerson@gmail.com>",
