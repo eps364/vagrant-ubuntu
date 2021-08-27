@@ -4,4 +4,4 @@ echo "Update and Upgrade of OS"
 #yes | do-release-upgrade
 apt update
 apt upgrade -y
-apt autoremove -y
+
