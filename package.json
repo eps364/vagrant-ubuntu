@@ -1,0 +1,17 @@
+{
+  "name": "vagrant-dev",
+  "version": "1.0.1",
+  "main": "src/server.js",
+  "repository": "https://github.com/eps364/vagrant-ubuntu.git",
+  "author": "Emerson Pereira da Silva <pereiradasilva.emerson@gmail.com>",
+  "license": "MIT",
+  "description": "Vagrant - Development",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "mongodb": "^4.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
