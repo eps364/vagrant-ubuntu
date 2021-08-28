@@ -5,13 +5,15 @@
   "repository": "https://github.com/eps364/vagrant-ubuntu.git",
   "author": "Emerson Pereira da Silva <pereiradasilva.emerson@gmail.com>",
   "license": "MIT",
+  "os": [
+    "darwin",
+    "linux"
+  ],
   "description": "Vagrant - Development",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node src/server.js"
   },
   "devDependencies": {
-    "mongodb": "^4.1.1",
-    "nodemon": "^2.0.12"
+    "mongodb": "^4.1.1"
   }
 }
